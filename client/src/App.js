@@ -98,12 +98,16 @@ export default function App() {
         <div className="col-12 col-sm-10 col-md-8 col-lg-6">
           <div className="card shadow-sm">
             <div className="card-body p-4">
+              <img
+                src="/assafmedia-logo.jpg"
+                alt="AssafMedia Logo"
+                className="mb-4"
+                style={{ maxWidth: "350px", height: "auto", alignItems: "center" }}
+              />{" "}
               <h1 className="h4 fw-bold mb-1">Login</h1>
               <p className="text-muted mb-4">Enter your username and email, then use the OTP sent to your inbox.</p>
-
               {error && <div className="alert alert-danger py-2">{error}</div>}
               {message && <div className="alert alert-success py-2">{message}</div>}
-
               {step === "request" ? (
                 <form onSubmit={handleRequestOTP}>
                   <div className="mb-3">
@@ -176,7 +180,6 @@ export default function App() {
                   </div>
                 </form>
               )}
-
               <hr className="my-4" />
               <ul className="small text-muted ps-3 mb-0">
                 <li>
