@@ -73,3 +73,36 @@ The database structure was updated to support OTP authentication, API tokens, an
 These additions enable OTP verification, rate limiting, token-based authentication, and last login tracking.
 
 <br>
+
+## Step 6 – Authentication Endpoints
+
+Added new PHP files under the `/auth` folder to handle OTP authentication and session management:
+
+- **request-otp.php** → Generates and sends an OTP via Brevo.
+- **verify-otp.php** → Verifies OTP and issues an API token on success.
+- **verify_token.php** → Validates the API token for protected routes.
+- **logout.php** → Logs out the user by clearing the API token and expiring cookies.
+
+These endpoints work together with the React client to provide a full OTP login and session flow.
+
+<br>
+
+## Step 7 – Cloudinary Integration
+
+Installed the Cloudinary PHP SDK to handle media uploads and storage:
+
+```bash
+composer require cloudinary/cloudinary_php
+```
+
+## Step 8 – Chat Input Features
+
+Enhanced the chatbox input with new UI/UX features:
+
+- **File Upload** → Added a file upload button (`fa-paperclip`) connected to a hidden `<input type="file">` for selecting images.
+- **Emoji Picker** → Integrated an emoji button to trigger an emoji selector for messages.
+- **Honeypot Field** → Added a hidden input field to prevent spam/bot submissions.
+
+These improvements make the chat form more interactive and secure.
+
+![alt text](image.png)

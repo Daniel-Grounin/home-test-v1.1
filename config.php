@@ -5,7 +5,7 @@
 	}
 	
 	define("CONFIG_FILE_FIRED",true);
-	define("APP_ROOT_ABS_PATH",__dir__);
+	define("APP_ROOT_ABS_PATH",__DIR__);
 	define("MODULES_DIR_NAME","modules");
 	
 	define("SAVE_ERRORS_TO_LOG_ON_SHUTDOWN_FUNCTION",true);
@@ -57,7 +57,7 @@
 	ini_set("error_log", $GLOBALS["errors_log_file_path"]);
 	error_reporting($GLOBALS["error_reporting"]);	
 	
-	define("APP_INIT_FILE_PATH",__dir__."/app_init.php");
+	define("APP_INIT_FILE_PATH",__DIR__."/app_init.php");
 	$app_init_file_path = constant("APP_INIT_FILE_PATH");
 	
 	if(!file_exists($app_init_file_path)){
@@ -66,7 +66,7 @@
 	}
 	
 	try{
-		require_once($app_init_file_path);
+		require_once $app_init_file_path;
 	}catch(Throwable $e){
 		$msg = "[INCLUDE FAILED] [2098739876382175478623547326] "
 			.$e->getMessage()
@@ -80,6 +80,25 @@
 	
 	include_all_modules();	
 	include_all_plugins();
+
+	// Cloudinary init (optional)
+try {
+    require_once __DIR__ . '/vendor/autoload.php';
+	$dotenv = parse_ini_file(__DIR__ . '.env');
+    
+    $GLOBALS['cloudinary'] = new Cloudinary\Cloudinary([
+        'cloud' => [
+            'cloud_name' => $dotenv['CLOUDINARY_CLOUD_NAME'] ,
+            'api_key'    => $dotenv['CLOUDINARY_API_KEY'] ,
+            'api_secret' => $dotenv['CLOUDINARY_API_SECRET'] ,
+        ],
+        'url' => ['secure' => true]
+    ]);
+	} catch (Throwable $e) {
+		error_log("Cloudinary init failed: " . $e->getMessage());
+		// don’t die, just continue so login APIs still work
+	}
+
 	
 	if(function_exists("get_now")){
 		$globals["app_loaded_datetime"] = get_now();
