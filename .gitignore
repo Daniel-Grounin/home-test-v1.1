@@ -1,2 +1,4 @@
 .env
 vendor/
+client/node_modules/
+

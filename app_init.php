@@ -34,7 +34,7 @@
 			return false;
 		}
 		
-		$app_root_absolute_dir = APP_ROOT_ABS_PATH ?? $GLOBALS["app_root_abs_path"] ?? __dir__;
+		$app_root_absolute_dir = APP_ROOT_ABS_PATH ?? $GLOBALS["app_root_abs_path"] ?? __DIR__;
 		
 		if(!$base_directory){
 			$modules_dir_name = MODULES_DIR_NAME ?? $GLOBALS["modules_dir_name"] ?? "modules";
@@ -73,7 +73,7 @@
 		return true;
 	}	
 	
-	function include_all_plugins($file_name="functions.php",$base_directory=__dir__."/plugins/") {		
+	function include_all_plugins($file_name="functions.php",$base_directory=__DIR__."/plugins/") {		
 		$plugins = [];
 		$included_files = [];
 		
@@ -134,9 +134,9 @@
 		}		
 	}
 
-	$GLOBALS = [];
+	// $GLOBALS = [];
 	
 	$GLOBALS["php_now"] = date("Y-m-d H:i:s T");
 	$GLOBALS["app_timezone"]["php_date_timezone_returns"] = date("T");	
-	$GLOBALS["app_root_absolute_dir"] = __dir__;
+	$GLOBALS["app_root_absolute_dir"] = __DIR__;
 ?>
