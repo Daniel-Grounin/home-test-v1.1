@@ -1,0 +1,177 @@
+Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 16:58:49
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 16:59:48
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 17:10:46
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 17:13:12
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 17:13:16
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 17:14:30
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 17:14:30
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 17:14:35
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 17:16:35
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 17:27:05
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 17:27:05
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 17:31:48
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 17:34:59
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 17:34:59
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 17:41:48
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 17:47:48
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 17:51:48
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 17:57:48
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 17:58:48
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 18:26:43
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 18:30:21
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): No such file or directory in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19Array
+(
+    [type] => 2
+    [message] => unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied
+    [file] => C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php
+    [line] => 19
+    [datetime] => 2025-08-29 18:52:29
+)
+[SHUTDOWN] unlink(C:\xampp\htdocs\home-test-v1.1/errors.log): Permission denied in C:\xampp\htdocs\home-test-v1.1\modules\errors_report.php line 19

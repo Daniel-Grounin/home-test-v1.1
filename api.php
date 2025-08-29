@@ -4,7 +4,7 @@ define("a328763fe27bba", "TRUE");
 
 #region start
 require_once("config.php");
-require_once("../home-test/modules/mysql.php");
+require_once("../home-test-v1.1/modules/mysql.php");
 header("Content-Type: application/json; charset=utf-8");
 
 $data = $_GET["data"] ?? null;

@@ -17,7 +17,7 @@ function require_auth_or_redirect() {
 
   if (!$user) {
     // optionally clear the cookie
-    setcookie('auth_token', '', ['expires'=>time()-3600,'path'=>'/HOME-TEST','httponly'=>true, 'samesite'=>'Lax']);
+    setcookie('auth_token', '', ['expires'=>time()-3600,'path'=>'/HOME-TEST-v1.1','httponly'=>true, 'samesite'=>'Lax']);
     header('Location: http://localhost:3000');
     exit;
   }

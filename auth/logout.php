@@ -30,7 +30,7 @@ if ($token !== '') {
 // Expire the cookie (adjust path to your app root)
 setcookie('auth_token', '', [
   'expires'  => time() - 3600,
-  'path'     => '/HOME-TEST',
+  'path'     => '/HOME-TEST-v1.1',
   'httponly' => true,
   'samesite' => 'Lax',
   'secure'   => (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off'),
@@ -42,6 +42,6 @@ if (str_contains($accept, 'application/json') || ($_SERVER['HTTP_X_REQUESTED_WIT
   header('Content-Type: application/json');
   echo json_encode(['ok' => true]);
 } else {
-  header('Location: /HOME-TEST/index.php'); // or your React login
+  header('Location: /HOME-TEST-v1.1/index.php'); // or your React login
 }
 exit;

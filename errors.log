@@ -1,9 +1,1 @@
-[28-Aug-2025 15:35:35 Asia/Jerusalem] 2025-08-28 15:35:35It seems that MYSQL server details, user, password is not set
-[28-Aug-2025 15:35:35 Asia/Jerusalem] [INCLUDE FAILED] [3876239876478392764328765832546] Message: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, bool given | File: C:\xampp\htdocs\home-test-v1.1\modules\mysql.php | Line: 208 | Module: mysql | Trace: #0 C:\xampp\htdocs\home-test-v1.1\modules\mysql.php(208): mysqli_query(false, 'SELECT NOW();')
-#1 C:\xampp\htdocs\home-test-v1.1\modules\mysql.php(297): mysql_query('SELECT NOW();', false)
-#2 C:\xampp\htdocs\home-test-v1.1\modules\mysql.php(374): mysql_fetch_array('SELECT NOW();')
-#3 C:\xampp\htdocs\home-test-v1.1\app_init.php(58): require_once('C:\\xampp\\htdocs...')
-#4 C:\xampp\htdocs\home-test-v1.1\app_init.php(133): include_module('mysql')
-#5 C:\xampp\htdocs\home-test-v1.1\config.php(81): include_all_modules()
-#6 C:\xampp\htdocs\home-test-v1.1\index.php(3): require_once('C:\\xampp\\htdocs...')
-#7 {main}
+[29-Aug-2025 19:00:49 Asia/Jerusalem] Cloudinary init failed: parse_ini_file(C:\xampp\htdocs\home-test-v1.1.env): Failed to open stream: No such file or directory

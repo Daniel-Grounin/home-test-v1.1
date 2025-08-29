@@ -106,7 +106,7 @@ setcookie(
   $token,
   [
     'expires'  => strtotime($expStr),
-    'path'     => '/HOME-TEST',   // or '/' if you want the whole host
+    'path'     => '/HOME-TEST-v1.1',   // or '/' if you want the whole host
     'secure'   => $secure,        // must be true if you later use SameSite=None
     'httponly' => true,           // JS cannot read it (good)
     'samesite' => 'Lax',          // cookie sent on top-level navigations

@@ -310,6 +310,7 @@ var loadMsgsFromServerByContactId = async function (
   }
 
   var loadTriggerHtml = '<div id="load_trigger">🔄</div>';
+
   var firstMsgId = $("#msgs").find(".message-box").first().attr("id");
 
   postToServer({
@@ -862,7 +863,7 @@ $(window).on("load", function () {
           action: async function () {
             try {
               // Call server to clear cookie + DB token
-              const res = await fetch("/HOME-TEST/auth/logout.php", {
+              const res = await fetch("/HOME-TEST-v1.1/auth/logout.php", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 credentials: "include", // send/receive cookies

@@ -17,7 +17,7 @@
 		$line = $caller_info['line'] ?? 'unknown_line';
 		$function = $caller_info['function'] ?? 'global_scope';
 
-		// המרת מערך ל־JSON אם צריך
+		// המרת מערך ל־ JSON אם צריך
 		if (is_array($msg)) {
 			$msg = json_encode($msg, JSON_UNESCAPED_UNICODE);
 		}
