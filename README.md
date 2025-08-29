@@ -32,10 +32,10 @@ npm install react-toastify
 Built a React login page that uses Bootstrap for styling and React-Toastify for notifications.
 The page lets users enter a username and email, request an OTP from the backend, verify it, store the token in localStorage, and redirect to /index.php upon success.
 
-![alt text](client/public/image-1.png)
-![alt text](client/public/image-2.png)
+![alt text](client/public/app-gif.gif)
+
 ![alt text](client/public/image-3.png)
-![alt text](client/public/image-4.png)
+
 ![alt text](client/public/image.png)
 
 <br>
