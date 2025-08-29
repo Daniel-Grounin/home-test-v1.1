@@ -25,12 +25,15 @@ Installed Bootstrap for styling and React-Toastify for toast notifications:
 ```bash
 npm install bootstrap@5.3.8
 npm install react-toastify
+npm install -D tailwindcss postcss autoprefixer
+npm install framer-motion react-toastify bootstrap
+
 ```
 
 ## Step 4 – Create Login Page
 
-Built a React login page that uses Bootstrap for styling and React-Toastify for notifications.
-The page lets users enter a username and email, request an OTP from the backend, verify it, store the token in localStorage, and redirect to /index.php upon success.
+Built a React login page with a glassmorphic WhatsApp-inspired design using TailwindCSS, Framer Motion for animations, and React-Toastify for notifications. </br>
+The page features a dynamic background with floating WhatsApp icons and animated blobs, and lets users enter a username and email, request an OTP from the backend, verify it, store the token in localStorage, and redirect to /index.php upon success.
 
 ![alt text](client/public/app-gif.gif)
 
