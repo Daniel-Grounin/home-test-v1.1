@@ -26,7 +26,7 @@ Installed Bootstrap for styling and React-Toastify for toast notifications:
 npm install bootstrap@5.3.8
 npm install react-toastify
 npm install -D tailwindcss postcss autoprefixer
-npm install framer-motion react-toastify bootstrap
+npm install framer-motion
 
 ```
 
